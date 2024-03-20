@@ -1,0 +1,101 @@
+<template>
+    <!-- CHARACTER DETAIL PAGE -->
+    <div class="mx-auto mt-16 max-w-7xl px-4 xs:px-8 sm:px-10 lg:px-16 pb-6 w-3/5 flex items-top">
+        <div class="flex flex-col">
+            <!-- CHARACTER FACE IMAGE -->
+            <div class="w-[150px] mr-10 mb-10 z-30 h-[150px]">
+                <div
+                    class="border-4 border-emerald-800 w-full h-full flex cursor-pointer bg-contain bg-[url('https://i.pinimg.com/736x/d1/73/49/d17349c94053fd3586f5baa0312df8b1.jpg')] rounded-full">
+                </div>
+            </div>
+            <!-- CHARACTER FULL BODY IMAGE -->
+            <div class="shadow w-[150px] mr-10 mb-10 z-30 h-[250px]">
+                <div
+                    class="border-4 border-emerald-800 w-full h-full flex cursor-pointer bg-contain bg-[url('https://i.imgur.com/4T7gI1C.jpeg')] rounded-xl">
+                </div>
+            </div>
+        </div>
+
+        <div class="font-mono flex flex-col bg-emerald-100 shadow border-4 border-emerald-800 h-full w-full p-5 pb-0 rounded-xl">
+            <!-- CHARACTER INFO -->
+
+            <h2 class="text-4xl text-emerald-500 text-center mb-1">Roronoa Zoro</h2>
+
+            <hr class="border-b border-emerald-500 shadow" />
+
+            <div class="text-emerald-600 flex text-lg mt-3 mb-5 justify-between">
+                <div class="flex border-b border-emerald-600">
+                    <p class="mr-2">Male</p>
+                    <p class="mr-2">|</p>
+                    <p class="mr-2">Age 19</p>
+                </div>
+            </div>
+
+            <p class="text-emerald-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dolore? Vitae
+                quis rem tempora velit
+                harum sunt architecto tenetur quia illum ipsum officia quisquam voluptas illo, voluptates
+                exercitationem ut officiis.</p>
+
+            <!-- CHARACTER Techniques -->
+            <h2 class="text-3xl text-emerald-500 text-center mb-1 mt-4">Techniques</h2>
+            <hr class="border-b border-emerald-500 mb-4" />
+
+
+            <div class="flex flex-wrap justify-around">
+                <div class="shadow border-2 border-emerald-800 rounded-xl min-h-[60px] min-w-[250px] my-1">
+                    <div class="text-teal-700 flex text-lg mt-3 mb-5 justify-center">
+                        <div class="flex mx-2">
+                            <p class="mr-2">Santouryuu Ougi</p>
+                            <p class="mr-2">|</p>
+                            <p class="mr-2">Oni Giri</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow border-2 border-emerald-800 rounded-xl min-h-[60px] min-w-[250px] my-1">
+                    <div class="text-teal-700 flex text-lg mt-3 mb-5 justify-center">
+                        <div class="flex mx-2">
+                            <p class="mr-2">Santouryuu Ougi</p>
+                            <p class="mr-2">|</p>
+                            <p class="mr-2">Tatsumaki</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow border-2 border-emerald-800 rounded-xl min-h-[60px] min-w-[250px] my-1">
+                    <div class="text-teal-700 flex text-lg mt-3 mb-5 justify-center">
+                        <div class="flex mx-2">
+                            <p class="mr-2">Santouryuu Ougi</p>
+                            <p class="mr-2">|</p>
+                            <p class="mr-2">Sanzen Sekai</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow border-2 border-emerald-800 rounded-xl min-h-[60px] min-w-[250px] my-1">
+                    <div class="text-teal-700 flex text-lg mt-3 mb-5 justify-center">
+                        <div class="flex mx-2">
+                            <p class="mr-2">Itouryuu Iai</p>
+                            <p class="mr-2">|</p>
+                            <p class="mr-2">Shishi Sonson</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow border-2 border-emerald-800 rounded-xl min-h-[60px] min-w-[250px] my-1">
+                    <div class="text-teal-700 flex text-lg mt-3 mb-5 justify-center">
+                        <div class="flex mx-2">
+                            <p class="mr-2">Itouryuu</p>
+                            <p class="mr-2">|</p>
+                            <p class="mr-2">Sanjuuroku Pound Hou</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex mt-4 text-zinc-400">
+                <p>Author: Eiichiro Oda</p>
+            </div>
+        </div>
+    </div>
+</template>
