@@ -4,8 +4,8 @@
         <div class="z-10 absolute w-full h-full flex flex-col justify-around items-around">
             <div class="text-center">
                 <h1 class="text-5xl font-serif mb-10 text-white">Create Your Character</h1>
-                <CharacterNameInput />
-                <CharacterNameInput />
+                <CharacterNameInput class="my-5"/>
+                <CharacterNameInput class="my-5"/>
             </div>
         </div>
         <div class="z-1 absolute w-full h-full bg-black opacity-50"></div>

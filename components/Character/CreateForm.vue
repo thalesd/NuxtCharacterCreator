@@ -1,3 +1,16 @@
+<script setup>
+
+const route = useRoute();
+useHead({
+    title: `Creating ${route.params.characterName}`
+});
+
+const inputCharName = ref(route.params.characterName);
+const handleCreateCharacter = () => {
+
+}
+</script>
+
 <template>
     <div class="mx-auto mt-16 max-w-7xl px-4 xs:px-8 sm:px-10 lg:px-16 pb-16 w-3/5 flex items-top">
         <div class="flex flex-col">
@@ -21,7 +34,7 @@
 
             <label for="character-name">Name</label>
             <input class="bg-inherit focus:outline-none ml-3 border rounded-xl p-1 border-sky-700" type="text"
-                name="character-name" id="character-name" value="Roronoa Zoro" />
+                name="character-name" id="character-name" v-model="inputCharName"/>
 
             <label for="character-age">Age</label>
             <input class="bg-inherit focus:outline-none ml-3 border rounded-xl p-1 border-sky-700" type="number"
@@ -42,7 +55,7 @@
                 name="character-backstory"
                 id="character-backstory">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis consectetur dicta quos beatae ad eveniet laborum nobis sit quia, illo exercitationem odio? Amet iure illo minus hic quod tempore?</textarea>
 
-            <button class="text-lg rounded bg-sky-700 mx-auto px-2 text-white">Create</button>
+            <button class="text-lg rounded bg-sky-700 mx-auto px-2 text-white" @click="handleCreateCharacter">Create</button>
         </div>
     </div>
 </template>
