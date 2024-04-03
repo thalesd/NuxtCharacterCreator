@@ -1,7 +1,10 @@
 <script setup>
+    const { toTitleCase } = useUtilities();
+
+
     const route = useRoute();
     useHead({
-        title: `Creating ${route.params.characterName}`
+        title: `Creating ${route.params.characterName ? toTitleCase(route.params.characterName) : "character"}`
     });
 
     const inputCharName = ref(route.params.characterName);
