@@ -2,11 +2,14 @@
     useHead({
         title: "Character Creator"
     });
+
+    definePageMeta({
+        layout: "home"
+    });
 </script>
 
 <template>
     <div>
-        <NavBar/>
         <HomePage/>
     </div>
 </template>

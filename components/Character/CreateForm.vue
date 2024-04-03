@@ -1,14 +1,13 @@
 <script setup>
+    const route = useRoute();
+    useHead({
+        title: `Creating ${route.params.characterName}`
+    });
 
-const route = useRoute();
-useHead({
-    title: `Creating ${route.params.characterName}`
-});
+    const inputCharName = ref(route.params.characterName);
+    const handleCreateCharacter = () => {
 
-const inputCharName = ref(route.params.characterName);
-const handleCreateCharacter = () => {
-
-}
+    }
 </script>
 
 <template>
