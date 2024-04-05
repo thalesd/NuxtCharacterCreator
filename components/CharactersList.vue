@@ -1,12 +1,5 @@
 <script setup>
     const { characters } = useCharacters();
-
-    const route = useRoute();
-    const inputCharName = ref(route.params.characterName);
-
-    const handleSearch = () => {
-        navigateTo(`/characters/${inputCharName.value}`);
-    }
 </script>
 
 <template>

@@ -2,10 +2,23 @@
     const props = defineProps({
         character: Object
     });
+
+    const handleClickCharacter = () => {
+        navigateTo(`/character/${props.character.id}`);
+    }
 </script>
 
+<style>
+    .hover-pointer:hover{
+        cursor: pointer;
+        background-color: rgb(5, 150, 105)
+    }
+</style>
+
 <template>
-    <div class="border-4 border-emerald-600 rounded-xl w-[300px] h-[150px] text-center mx-5 my-5 flex flex-row bg-gray-200">
+    <div 
+        class="border-4 border-emerald-600 rounded-xl w-[300px] h-[150px] text-center mx-5 my-5 flex flex-row bg-gray-200 hover-pointer" 
+        @click="handleClickCharacter">
         <div class="my-auto mx-auto">
             <img 
                 :src="character.faceImageUrl"
