@@ -4,7 +4,7 @@
 
     const handleSearch = (e) => {
         e.preventDefault();
-        navigateTo(`/characters/${inputCharName.value}`);
+        navigateTo(`/characters/${inputCharName.value || ""}`);
     }
 </script>
 

@@ -1,4 +1,4 @@
 <template>
-    <CharacterSearchInput/>
+    <CharacterSearchInput class="mt-5"/>
     <CharactersList/>
 </template>
