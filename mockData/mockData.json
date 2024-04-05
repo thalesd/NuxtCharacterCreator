@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name":"Roronoa Zoro",
+        "gender": "Male", 
+        "age": 19,
+        "story": "Wants to become the world's greatest swordsman to fullfil a promise to his best friend, who passed away.",
+        "faceImageUrl": "https://i.pinimg.com/736x/d1/73/49/d17349c94053fd3586f5baa0312df8b1.jpg",
+        "fullImageUrl": "https://i.imgur.com/4T7gI1C.jpeg",
+        "techniques": [
+            {
+                "style": "Santouryuu Ougi",
+                "name": "Oni Giri"
+            },
+            {
+                "style": "Santouryuu Ougi",
+                "name": "Tatsumaki"
+            },
+            {
+                "style": "Santouryuu Ougi",
+                "name": "Sanzen Sekai"
+            },
+            {
+                "style": "Itouryuu Iai",
+                "name": "Shishi Sonson"
+            },
+            {
+                "style": "Itouryuu",
+                "name": "Sanjuuroku Pound Hou"
+            }
+        ],
+        "author": "Eiichiro Oda"
+    },
+    {
+        "id": 2,
+        "name":"Monkey D. Luffy",
+        "gender": "Male", 
+        "age": 17,
+        "story": "A pirate who wants to become the king of the pirates.",
+        "faceImageUrl": "https://i.pinimg.com/736x/2d/5c/4d/2d5c4d9d2e9cb07708b059956880f9b0.jpg",
+        "fullImageUrl": "https://p2.trrsf.com.br/image/fget/cf/540/960/smart/images.terra.com/2023/08/08/monkey_d_luffy_infobox-vb6bkb9b5en8.jpg",
+        "techniques": [
+            {
+                "style": "Gomu Gomu no",
+                "name": "Pistol"
+            }
+        ],
+        "author": "Eiichiro Oda"
+    },
+    {
+        "id": 3,
+        "name":"Vinsmoke Sanji",
+        "gender": "Male", 
+        "age": 19,
+        "story": "A skilled chef who wants to find the legendary All Blue, where all the ingredients of the world can be found.",
+        "faceImageUrl": "https://i.pinimg.com/736x/8a/d9/f8/8ad9f8400a8bf8221aee075cd38bffa1.jpg",
+        "fullImageUrl": "https://dreager1.com/wp-content/uploads/2013/02/sanji_full_view.png",
+        "techniques": [
+            {
+                "style": "Diable Jamble",
+                "name": "Flambage Shot"
+            }
+        ],
+        "author": "Eiichiro Oda"
+    },
+    {
+        "id": 4,
+        "name":"Nami",
+        "gender": "Female", 
+        "age": 17,
+        "story": "A skilled cartographer and navigator who wants to create a world map with her own hands throughout her adventures.",
+        "faceImageUrl": "https://i.pinimg.com/736x/f6/83/b6/f683b63071f3537c2a3ff20667086b44.jpg",
+        "fullImageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1dd3fd2f-b45d-447a-34b0-80419528db00/width=450/187075.jpeg",
+        "techniques": [
+            {
+                "style": "Weather Egg",
+                "name": ""
+            }
+        ],
+        "author": "Eiichiro Oda"
+    },
+    {
+        "id": 5,
+        "name":"Nico Robin",
+        "gender": "Female", 
+        "age": 23,
+        "story": "A skilled archesologist who knows how to read the ancient language inscripted in the legendary poneglyphs and uncover the story fo the lost century.",
+        "faceImageUrl": "https://s0.smartresize.com/wallpaper/350/172/HD-wallpaper-nico-robin-icon-nico-robin-one-piece.jpg",
+        "fullImageUrl": "https://i.pinimg.com/736x/c9/59/66/c959667b2df07d6e77ead27f43cb353d.jpg",
+        "techniques": [
+            {
+                "style": "Mil Fluer",
+                "name": "Gigantesco Mano"
+            }
+        ],
+        "author": "Eiichiro Oda"
+    }
+]
