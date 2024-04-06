@@ -9,22 +9,28 @@
         "fullImageUrl": "https://i.imgur.com/4T7gI1C.jpeg",
         "techniques": [
             {
+                "id": 1,
                 "style": "Santouryuu Ougi",
                 "name": "Oni Giri"
             },
             {
+                
+                "id": 2,
                 "style": "Santouryuu Ougi",
                 "name": "Tatsumaki"
             },
             {
+                "id": 3,
                 "style": "Santouryuu Ougi",
                 "name": "Sanzen Sekai"
             },
             {
+                "id": 4,
                 "style": "Itouryuu Iai",
                 "name": "Shishi Sonson"
             },
             {
+                "id": 5,
                 "style": "Itouryuu",
                 "name": "Sanjuuroku Pound Hou"
             }
@@ -41,6 +47,7 @@
         "fullImageUrl": "https://p2.trrsf.com.br/image/fget/cf/540/960/smart/images.terra.com/2023/08/08/monkey_d_luffy_infobox-vb6bkb9b5en8.jpg",
         "techniques": [
             {
+                "id": 6,
                 "style": "Gomu Gomu no",
                 "name": "Pistol"
             }
@@ -57,6 +64,7 @@
         "fullImageUrl": "https://dreager1.com/wp-content/uploads/2013/02/sanji_full_view.png",
         "techniques": [
             {
+                "id": 7,
                 "style": "Diable Jamble",
                 "name": "Flambage Shot"
             }
@@ -73,8 +81,9 @@
         "fullImageUrl": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1dd3fd2f-b45d-447a-34b0-80419528db00/width=450/187075.jpeg",
         "techniques": [
             {
+                "id": 8,
                 "style": "Weather Egg",
-                "name": ""
+                "name": "Rain Tempo"
             }
         ],
         "author": "Eiichiro Oda"
@@ -89,6 +98,7 @@
         "fullImageUrl": "https://i.pinimg.com/736x/c9/59/66/c959667b2df07d6e77ead27f43cb353d.jpg",
         "techniques": [
             {
+                "id": 9,
                 "style": "Mil Fluer",
                 "name": "Gigantesco Mano"
             }

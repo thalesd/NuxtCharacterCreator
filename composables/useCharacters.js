@@ -5,3 +5,9 @@ export const useCharacters = () => {
         characters
     }
 };
+
+export const useCharacter = (id) => {
+    return {
+        character: characters.find(c => c.id === parseInt(id))
+    }
+};
