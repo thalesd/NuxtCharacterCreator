@@ -13,5 +13,7 @@
             :isSeriesSelected="seriesStore.isSeriesSelected(seriesInfo.id)"
             :handleSelectSeries="handleSelectSeries"
             />
+
+        <SeriesAddNewCard />
     </div>
 </template>

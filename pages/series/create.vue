@@ -1,0 +1,3 @@
+<template>
+    <SeriesCreateForm />
+</template>
