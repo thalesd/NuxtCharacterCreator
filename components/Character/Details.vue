@@ -16,14 +16,14 @@
         <div class="flex flex-col">
             <!-- CHARACTER FACE IMAGE -->
             <div class="w-[150px] mr-10 mb-10 z-30 h-[150px]">
-                <img class="border-4 border-emerald-800 w-full h-full flex cursor-pointer rounded-full" 
+                <NuxtImg class="border-4 border-emerald-800 w-full h-full flex cursor-pointer rounded-full" 
                     :src="character.faceImageUrl"
                 />
 
             </div>
             <!-- CHARACTER FULL BODY IMAGE -->
             <div class="shadow w-[150px] mr-10 mb-10 z-30 h-[250px]">
-                <img class="border-4 border-emerald-800 w-full h-full flex cursor-pointer rounded-xl" 
+                <NuxtImg class="border-4 border-emerald-800 w-full h-full flex cursor-pointer rounded-xl" 
                     :src="character.fullImageUrl"
                 />
             </div>

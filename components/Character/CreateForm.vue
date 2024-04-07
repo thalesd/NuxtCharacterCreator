@@ -1,7 +1,6 @@
 <script setup>
     const { toTitleCase } = useUtilities();
 
-
     const route = useRoute();
     useHead({
         title: `Creating ${route.params.characterName ? toTitleCase(route.params.characterName) : "character"}`
@@ -18,13 +17,13 @@
         <div class="flex flex-col">
             <!-- CHARACTER FACE IMAGE -->
             <div class="w-[150px] mr-10 mb-10 z-30 h-[150px]">
-                <img 
+                <NuxtImg 
                     class="border-4 border-stone-600 w-full h-full flex cursor-pointer rounded-full" 
                     src="https://www.centroceres.cl/wp-content/uploads/2021/06/icono-perfil.png"/>
             </div>
             <!-- CHARACTER FULL BODY IMAGE -->
             <div class="shadow w-[150px] mr-10 mb-10 z-30 h-[250px]">
-                <img
+                <NuxtImg
                     class="border-4 border-stone-600 w-full h-full flex cursor-pointer rounded-xl" 
                     src="https://cdn1.vectorstock.com/i/1000x1000/09/50/human-body-vector-4090950.jpg"/>
             </div>

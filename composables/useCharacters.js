@@ -1,4 +1,4 @@
-import characters from "@/mockData/mockData.json";
+import characters from "@/mockData/mockCharactersData.json";
 
 export const useCharacters = () => {
     return {

@@ -1,10 +1,12 @@
 <script setup>
+    const route = useRoute();
+
     const props = defineProps({
         character: Object
     });
 
     const handleClickCharacter = () => {
-        navigateTo(`/character/${props.character.id}`);
+        navigateTo(`/${route.params.seriesName}/character/${props.character.id}`);
     }
 </script>
 
@@ -20,7 +22,7 @@
         class="border-4 border-emerald-600 rounded-xl w-[300px] h-[150px] text-center mx-5 my-5 flex flex-row bg-gray-200 hover-pointer" 
         @click="handleClickCharacter">
         <div class="my-auto mx-auto">
-            <img 
+            <NuxtImg 
                 :src="character.faceImageUrl"
                 :alt="character.name"
                 class="border-4 border-emerald-400 w-[100px] h-[100px] rounded-full"

@@ -2,9 +2,13 @@
     const route = useRoute();
     const inputCharName = ref(route.params.characterName);
 
+    const props = defineProps({
+        seriesName: String
+    });
+
     const handleSearch = (e) => {
         e.preventDefault();
-        navigateTo(`/characters/${inputCharName.value || ""}`);
+        navigateTo(`/${props.seriesName}/characters/${inputCharName.value || ""}`);
     }
 </script>
 

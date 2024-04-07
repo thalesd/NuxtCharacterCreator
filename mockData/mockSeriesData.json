@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "One Piece",
+        "author": "Eiichiro Oda",
+        "arcs": [
+            {
+                "id": 1,
+                "name": "East Blue"
+            },
+            {
+                "id": 2,
+                "name": "Baroque Works"
+            },
+            {
+                "id": 3,
+                "name": "Drum Island"
+            },
+            {
+                "id": 4,
+                "name": "Alabasta"
+            },
+            {
+                "id": 5,
+                "name": "Jaya"
+            },
+            {
+                "id": 6,
+                "name": "Skypiea"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Breaking Bad",
+        "author": "Vince Gilligan",
+        "arcs": [
+            {
+                "id": 1,
+                "name": "Season 1"
+            },
+            {
+                "id": 2,
+                "name": "Season 2"
+            },
+            {
+                "id": 3,
+                "name": "Season 3"
+            },
+            {
+                "id": 4,
+                "name": "Season 4"
+            },
+            {
+                "id": 5,
+                "name": "Season 5"
+            },
+            {
+                "id": 6,
+                "name": "Season 6"
+            }
+        ]
+    }
+]

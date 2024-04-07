@@ -10,6 +10,6 @@
 
 <template>
     <div>
-        <HomePage/>
+        <HomePage />
     </div>
 </template>
