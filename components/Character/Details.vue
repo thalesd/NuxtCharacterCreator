@@ -1,6 +1,13 @@
 <script setup>
     const route = useRoute();
-    const { character } = useCharacter(route.params.characterId);    
+    const { character } = useCharacter(route.params.characterId);
+
+    if(!character){
+        throw createError({
+            statusCode: 404,
+            statusMessage: `Character with ID of ${route.params.characterId} does not exist.`
+        });
+    }
 </script>
 
 <template>
